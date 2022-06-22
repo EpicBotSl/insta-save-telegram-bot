@@ -8,6 +8,13 @@
             "description": "Your Telegram Bot Token from @BotFather",
             "value": "5518868774:AAHBgQDVSLps6uSk71ioFMSg-cwixSc3mek"
         }
+        "username": {
+            "description": "your user name",
+            "value": ""
+        }
+        "password": {
+            "description": "your user password",
+            "value": ""
     },
     "addons": [],
     "buildpacks": [

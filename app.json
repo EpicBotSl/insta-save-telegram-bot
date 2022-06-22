@@ -1,24 +1,28 @@
 {
-	"name": "Epic-Insta-dl",
-	"description": "A python oriented telegram bot for generating temporary Emails Developed By @riz4d with API of https://www.1secmail.com",
-	"logo": "https://j.top4top.io/p_2092uhkq40.jpg",
-	"repository": "https://github.com/EpicBotSl/insta-save-telegram-bot",
-	"env": {
-        "BOT_TOKEN": {
-            "description": "Your Telegram Bot Token from @BotFather",
-            "value": "5518868774:AAHBgQDVSLps6uSk71ioFMSg-cwixSc3mek"
-        }
+    "name": "TechZ Logo Maker Bot",
+    "description": "A Telegram Bot To Create Cool Logos, Powered By TechZBots API",
+    "keywords": [
+        "telegram",
+        "logo maker",
+        "logo",
+        "bot"
+    ],
+    "repository": "https://github.com/EpicBotSl/insta-save-telegram-bot",
+    "website": "https://t.me/TechZBots",
+    "success_url": "https://t.me/TechZLogoMakerBot",
+    "env": {
         "username": {
-            "description": "your user name",
-            "value": ""
-        }
+            "description": "Get this value from my.telegram.org"
+        },
         "password": {
-            "description": "your user password",
-            "value": ""
+            "description": "Get this value from my.telegram.org"
+        },
+        "BOT_TOKEN": {
+            "description": "Get this from @BotFather"
+        }
     },
-    "addons": [],
     "buildpacks": [
-        {
+        { 
             "url": "heroku/python"
         }
     ],

@@ -5,7 +5,7 @@ from tg_token import TOKEN
 import asyncio
 import os, os.path, glob
 
-bot = Bot(TOKEN)
+bot = Bot(5538345233:AAGym6IBjQmfdzfeuVgGVSwqRmhj2Nc-QyY)
 dp = Dispatcher(bot)
 
 L = Instaloader()

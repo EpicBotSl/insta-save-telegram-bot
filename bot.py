@@ -9,7 +9,7 @@ bot = Bot(TOKEN)
 dp = Dispatcher(bot)
 
 L = Instaloader()
-L.login("@navanjana_sathssindu", "navanjana2007")
+L.login("username", "password")
 
 
 ''' Command Start '''
